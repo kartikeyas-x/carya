@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: ['http://localhost:5174',  // Your frontend origin
-    'http://localhost:5176','https://trailed-v2-server.vercel.app',],
+    'http://localhost:5176','https://carya-ten.vercel.app/',],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
