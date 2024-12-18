@@ -1,4 +1,4 @@
 const getBaseUrl = () => {
-  return  "http://localhost:5001";
+  return "https://carya-ten.vercel.app/" || "http://localhost:5001";
 };
 export default getBaseUrl;
