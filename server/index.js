@@ -12,8 +12,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:5174',  // Your frontend origin
-    'http://localhost:5176','https://carya-ten.vercel.app/',],
+    origin: ['https://carya-ten.vercel.app/',],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
